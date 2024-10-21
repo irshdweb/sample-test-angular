@@ -1,0 +1,60 @@
+<!-- <div class="item">
+    <div class="title">
+        BUSINESS
+    </div>
+    <div class="img">
+        <img src="../../assets/images/car-1.png" />
+    </div>
+    <div class="name-panel">
+      <div class="name">Mercedes-Benz E-Class</div>  
+      <div class="features">
+        <div class="feature-item">
+            <img src="../../assets/images/icons/user.svg" /> X4
+        </div>
+        <div class="feature-item">
+            <img src="../../assets/images/icons/briefcase.svg" /> X2
+        </div>
+      </div>
+    </div>
+    <div class="others">
+        <div class="item">Distance</div>
+        <div class="item">19 mls </div>
+    </div>
+    <div class="others">
+        <div class="item">Distance</div>
+        <div class="item">19 mls </div>
+    </div>
+    <div class="price">
+        £1234.00
+    </div>
+    <div class="btn btn-secondary item-btn">Select</div>
+</div>
+ -->
+
+<div class="item">
+    <div class="title">{{ car.title }}</div>
+    <div class="img">
+      <img [src]="car.image" alt="{{ car.name }}" class="main-img"/>
+    </div>
+    <div class="name-panel">
+      <div class="name">{{ car.name }}</div>  
+      <div class="features">
+        <div class="feature-item">
+            <img src="../../assets/images/icons/user.svg" /> X4
+        </div>
+        <div class="feature-item">
+            <img src="../../assets/images/icons/briefcase.svg" /> X2
+        </div>
+      </div>
+    </div>
+    <div class="others">
+        <div class="item">Distance</div>
+        <div class="item">19 mls </div>
+    </div>
+    <div class="others">
+        <div class="item">Distance</div>
+        <div class="item">19 mls </div>
+    </div>
+    <div class="price">{{ car.price }}</div>
+    <div class="btn btn-secondary item-btn">Select</div>
+  </div>
